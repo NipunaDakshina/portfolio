@@ -156,6 +156,7 @@ body{
    flex-direction: column;
    gap: 2rem;
    padding-bottom: 6rem;
+   padding-right: 30px;
 }
 
 .about{
@@ -226,7 +227,7 @@ body{
     border-radius: 20px;
     transition: background 0.5s transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,
-    1px 1px 40px #0053b8f7
+    1px 1px 40px #0053b8f7;
 }
 
 .services-list div i{
@@ -523,7 +524,8 @@ section{
     position: relative;
     overflow: hidden;
     border-radius: 8px;
-    cursor: pointer;
+    cursor: pointer; 
+    margin: 15px;
 }
 .row img{
     width: 100%;
@@ -550,13 +552,13 @@ section{
 }
 .layer h5{
     color: #000;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 .layer p{
     color: #000;
-    font-size: 1rem;
+    font-size: 1.8rem;
     line-height: 1.8;
 }
 .layer i{
@@ -612,12 +614,10 @@ section{
 }
 .contact-list li{
     margin-bottom: 10px;
+    font-size: 20px;
     display: block;
 }
-.contact-list li{
-    margin-bottom: 10px;
-    display: block;
-}
+
 .contact-list i{
     display: inline-block;
     color: #0ef;
